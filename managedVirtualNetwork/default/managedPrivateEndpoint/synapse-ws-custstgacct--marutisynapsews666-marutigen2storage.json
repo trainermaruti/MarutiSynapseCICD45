@@ -1,0 +1,10 @@
+{
+	"name": "synapse-ws-custstgacct--marutisynapsews666-marutigen2storage",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/65d8153a-06df-4d67-a38e-ad7773200924/resourceGroups/TrainingRG/providers/Microsoft.Storage/storageAccounts/marutigen2storage",
+		"groupId": "dfs",
+		"fqdns": [
+			"marutigen2storage.dfs.core.windows.net"
+		]
+	}
+}

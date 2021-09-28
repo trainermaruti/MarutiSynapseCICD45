@@ -1,0 +1,16 @@
+{
+	"name": "OnPremSqlServerLS",
+	"type": "Microsoft.Synapse/workspaces/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=MarutiOnpremVM6;initial catalog=mydb1;user id=maruti",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyOGYyOGRiNC0wNzdmLTQ0MWQtODk3OC1jNjY5ZTQwYjNhMGUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SHIntegrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"name": "synapse-ws-sql--marutisynapsews666",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/65d8153a-06df-4d67-a38e-ad7773200924/resourceGroups/TrainingRG/providers/Microsoft.Synapse/workspaces/marutisynapsews666",
+		"groupId": "sql",
+		"fqdns": [
+			"marutisynapsews666.d5b05367-5f2e-407f-ad0e-30e2c136a2b3.sql.azuresynapse.net"
+		]
+	}
+}

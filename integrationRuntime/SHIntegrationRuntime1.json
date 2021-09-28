@@ -1,0 +1,7 @@
+{
+	"name": "SHIntegrationRuntime1",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "self hosted with Azure Onprem VM "
+	}
+}
