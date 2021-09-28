@@ -1,0 +1,99 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "marutisynapsews249"
+        },
+        "location": {
+            "value": "eastus"
+        },
+        "defaultDataLakeStorageAccountName": {
+            "value": "marutiadlgen249"
+        },
+        "defaultDataLakeStorageFilesystemName": {
+            "value": "marutifilesystem"
+        },
+        "sqlAdministratorLogin": {
+            "value": "maruti"
+        },
+        "sqlAdministratorLoginPassword": {
+            "value": null
+        },
+        "setWorkspaceIdentityRbacOnStorageAccount": {
+            "value": true
+        },
+        "createManagedPrivateEndpoint": {
+            "value": false
+        },
+        "defaultAdlsGen2AccountResourceId": {
+            "value": "/subscriptions/65d8153a-06df-4d67-a38e-ad7773200924/resourceGroups/TrainingRG/providers/Microsoft.Storage/storageAccounts/marutiadlgen249"
+        },
+        "allowAllConnections": {
+            "value": true
+        },
+        "grantWorkspaceIdentityControlForSql": {
+            "value": "Enabled"
+        },
+        "managedVirtualNetwork": {
+            "value": ""
+        },
+        "tagValues": {
+            "value": {}
+        },
+        "storageSubscriptionID": {
+            "value": "65d8153a-06df-4d67-a38e-ad7773200924"
+        },
+        "storageResourceGroupName": {
+            "value": "TrainingRG"
+        },
+        "storageLocation": {
+            "value": "eastus"
+        },
+        "storageRoleUniqueId": {
+            "value": "043a25f3-9678-4fbf-8544-32aedc8e8017"
+        },
+        "isNewStorageAccount": {
+            "value": true
+        },
+        "isNewFileSystemOnly": {
+            "value": false
+        },
+        "adlaResourceId": {
+            "value": ""
+        },
+        "managedResourceGroupName": {
+            "value": "ManagedTrainingRG"
+        },
+        "storageAccessTier": {
+            "value": "Hot"
+        },
+        "storageAccountType": {
+            "value": "Standard_RAGRS"
+        },
+        "storageSupportsHttpsTrafficOnly": {
+            "value": true
+        },
+        "storageKind": {
+            "value": "StorageV2"
+        },
+        "minimumTlsVersion": {
+            "value": "TLS1_2"
+        },
+        "storageIsHnsEnabled": {
+            "value": true
+        },
+        "userObjectId": {
+            "value": "3ba44604-037b-4458-8304-73dce0830fbd"
+        },
+        "setSbdcRbacOnStorageAccount": {
+            "value": true
+        },
+        "setWorkspaceMsiByPassOnStorageAccount": {
+            "value": false
+        },
+        "workspaceStorageAccountProperties": {
+            "value": {}
+        }
+    }
+}
