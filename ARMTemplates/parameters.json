@@ -3,13 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "name": {
-            "value": "marutisynapsews249"
+            "value": "marutisynapsews666"
         },
         "location": {
             "value": "eastus"
         },
         "defaultDataLakeStorageAccountName": {
-            "value": "marutiadlgen249"
+            "value": "marutigen2storage"
         },
         "defaultDataLakeStorageFilesystemName": {
             "value": "marutifilesystem"
@@ -24,10 +24,10 @@
             "value": true
         },
         "createManagedPrivateEndpoint": {
-            "value": false
+            "value": true
         },
         "defaultAdlsGen2AccountResourceId": {
-            "value": "/subscriptions/65d8153a-06df-4d67-a38e-ad7773200924/resourceGroups/TrainingRG/providers/Microsoft.Storage/storageAccounts/marutiadlgen249"
+            "value": "/subscriptions/65d8153a-06df-4d67-a38e-ad7773200924/resourceGroups/TrainingRG/providers/Microsoft.Storage/storageAccounts/marutigen2storage"
         },
         "allowAllConnections": {
             "value": true
@@ -36,10 +36,13 @@
             "value": "Enabled"
         },
         "managedVirtualNetwork": {
-            "value": ""
+            "value": "default"
         },
         "tagValues": {
             "value": {}
+        },
+        "publicNetworkAccess": {
+            "value": "Enabled"
         },
         "storageSubscriptionID": {
             "value": "65d8153a-06df-4d67-a38e-ad7773200924"
@@ -51,7 +54,7 @@
             "value": "eastus"
         },
         "storageRoleUniqueId": {
-            "value": "043a25f3-9678-4fbf-8544-32aedc8e8017"
+            "value": "8cc3ae45-0164-4c61-a307-1497e4186017"
         },
         "isNewStorageAccount": {
             "value": true
@@ -94,6 +97,12 @@
         },
         "workspaceStorageAccountProperties": {
             "value": {}
+        },
+        "managedVirtualNetworkSettings": {
+            "value": {
+                "allowedAadTenantIdsForLinking": [],
+                "preventDataExfiltration": false
+            }
         }
     }
 }
